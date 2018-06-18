@@ -7,7 +7,7 @@ const log = fs.createWriteStream('stats.log', { flags: 'a' })
 const server = http.createServer(async (req, res) => {
     const body = (await collect(req)).toString()
     const { referer, "user-agent": userAgent } = req.headers
-    log.write(JSON.stringify({ _t: Date.now(), referer, body, userAgent }) + "\n")
+    log.write(JSON.stringify({ time: new Date().toISOString(), referer, body, userAgent }) + "\n")
     res.setHeader('content-type', 'text/plain')
     res.end('ok')
 })
