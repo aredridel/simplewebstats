@@ -1,0 +1,22 @@
+{
+  "name": "@aredridel/simplewebstats",
+  "version": "1.0.0",
+  "description": "A simple stats collector for private web analytics",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aredridel/simplewebstats.git"
+  },
+  "keywords": [
+    "analytics"
+  ],
+  "author": "Aria Stewart <aredridel@dinhe.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aredridel/simplewebstats/issues"
+  },
+  "homepage": "https://github.com/aredridel/simplewebstats#readme"
+}
