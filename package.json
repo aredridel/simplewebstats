@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/aredridel/simplewebstats/issues"
   },
-  "homepage": "https://github.com/aredridel/simplewebstats#readme"
+  "homepage": "https://github.com/aredridel/simplewebstats#readme",
+  "devDependencies": {
+    "tap": "^12.0.1"
+  }
 }
