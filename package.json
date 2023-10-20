@@ -38,7 +38,7 @@
     }
   },
   "devDependencies": {
-    "tap": "^14.10.2"
+    "tap": "^18.5.2"
   },
   "dependencies": {
     "promise-streams": "^2.1.1"
